@@ -1,11 +1,1 @@
-create repository practicalpreparedness.com
-create basic website 
-link to this website from tailoredsurvival.com
-
-
-make one tab that has a ton of stuff to survive 
-- surviving public speaking 
-- surviving finances
-- surviving insomnia
-- surviving travel 
-- surviving a disability 
+remove inline styling and create element ID instead
