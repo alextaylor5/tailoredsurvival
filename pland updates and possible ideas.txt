@@ -2,3 +2,5 @@
 
 
 remove inline styling and create element ID instead
+
+i need to update the colors. Im thinking warm colors for tailoredsurvival and cool colors for practical preparedness. so redish and blueish
