@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background: white;
+    background:chocolate);
 }
 .container{
     font-family: "Arial", Helvetica, sans-serif;
@@ -18,7 +18,7 @@ body{
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: chocolate;
 }
 h1 {
   color: white;
@@ -37,7 +37,7 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: red;
     
     top: 0;
     width: 100%;
@@ -56,11 +56,11 @@ p {
   }
   
   li a:hover:not(.active) {
-    background-color: green;
+    background-color: chocolate;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: orangered;
   }
 
 #para1 {
@@ -70,14 +70,14 @@ p {
 #divlarge {
   padding:50px;
   margin-top:30px;
-  background-color:#6bbc1a;
+  background-color:orange;
       text-align: center;
       color: green;
       }
 #divsmall{
   padding:0px;
   margin-top:10px;
-  background-color:#568584;    
+  background-color:firebrick;    
         }
           
 
