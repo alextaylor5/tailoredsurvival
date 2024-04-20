@@ -37,7 +37,7 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    background-color: orangered;
     
     top: 0;
     width: 100%;
@@ -60,7 +60,7 @@ p {
   }
   
   .active {
-    background-color: orangered;
+    background-color: red;
   }
 
 #para1 {
