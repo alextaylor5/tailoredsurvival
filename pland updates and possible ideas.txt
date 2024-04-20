@@ -3,5 +3,10 @@
 
 remove inline styling and create element ID instead
 
-i need to update the colors. Im thinking warm colors for tailoredsurvival and cool colors for practical preparedness. so redish and blueish
 images on both sides of the page that relate to the lists and content in the article
+
+you need to talk about real situations that have happened to people, not hypothetical situations you think might happen to people. 
+
+yes starting with statistics is good research but people need a real story to go with that to relate to that. 
+
+make a list of every person story you have heard on a single page of the site. then figure out where those stories belong and expand on them. this includes stories you know from the news
