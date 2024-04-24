@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background:chocolate;
+    background: royalblue;
 }
 .container{
     font-family: "Arial", Helvetica, sans-serif;
@@ -20,31 +20,29 @@ body{
 body {
   margin: 0;
   padding: 0;
-  background-color: chocolate;
+  background-color: aqua;
 }
-
+    
  /* this section sets what the navigation area looks like */       
 
-  /* this is the navigation area background where there are no tabs */
-  ul 
-  {
+  /* this is the navigation area background where there are no tabs */         
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
+    background-color: deepskyblue;
+    position: fixed;
     top: 0;
     width: 100%;
   }
   
-  li 
-  {
+  li {
     float: left;
   }
   
   /* This is the formating of the navigation tabs */
-  li a 
-  {
+  li a {
     display: block;
     color: white;
     background-color: blueviolet;
@@ -52,58 +50,66 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-
-/* this is the formating for the navagation tab the mouse is currently hovering over */
+  /* this is the formating for the navagation tab the mouse is currently hovering over */
   li a:hover:not(.active)
   {
-    background-color: chocolate;
+    background-color: slateblue;
   }
 
-/* this is the formating for the navagation tab that you have selected */  
+  /* this is the formating for the navagation tab that you have selected */  
   .active
   {
-    background-color: red;
+    background-color: blue;
   }
-
 /* This is the end of the navigation area formating */
 
 
 
-/* this div is the first section of each web page */
+/* this div is the first section of each web page */    
 #div1 
 {
-  padding:5px;
-  margin-top:0px;
-  background-color:pink;
-  color: green;
+  padding:50px;
+  margin-top:30px;
+  height:700px;
+  text-align: center;
+  background-color:darkcyan;
+  color:white;
 }
 /* end of first section formatting div1 */    
 
 
 /* this div is the formatting for the second section of each web page */
-#div2 
+#div2
 {
-  padding:5px;
-  margin-top:0px;
-  background-color:firebrick;  
-  color:white;
+  padding:0px;
+  margin-top:10px;
+  background-color:skyblue;
+  height:400px;    
 }
-/* end of second section formatting div2*/    
+
+/* end of second section formatting div2*/  
+
 
 
 /* formatting for other random things */
-        h1 {
-          text-align: center;
-        }
-        
-        p {
-          font-family: verdana;
-          font-size: 1em;
-        }
-        #para1 {
-          text-align: center;
-          color: green;
-          }
-        
+h1
+{
+  color: white;
+  text-align: center;
+}
+
+p
+{
+  font-family: verdana;
+  font-size: 20px;
+}
+
+  
+
+#para1
+ {
+  text-align: center;
+  color: black;
+  }
 
       
