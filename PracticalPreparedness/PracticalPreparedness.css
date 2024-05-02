@@ -63,6 +63,27 @@ body {
   }
 /* This is the end of the navigation area formating */
 
+.flex-container-nav {
+  display: flex;
+  flex-wrap:wrap; 
+  background-color: DodgerBlue;
+}
+
+.flex-container-nav > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px; 
+  text-align: center;
+  line-height: 20px;
+  /* font-size: 30px; */ 
+}
+.flex-container-green {
+  display: flex;
+  flex-wrap:wrap; 
+  background-color: green;
+}
+
+
 
 
 /* this div is the first section of each web page */    

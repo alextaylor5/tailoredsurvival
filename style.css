@@ -61,6 +61,28 @@ body {
     background-color: red;
   }
 
+
+.flex-container-nav {
+  display: flex;
+  flex-wrap:wrap; 
+  background-color: DodgerBlue;
+}
+
+.flex-container-nav > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px; 
+  text-align: center;
+  line-height: 20px;
+  /* font-size: 30px; */ 
+}
+.flex-container-green {
+  display: flex;
+  flex-wrap:wrap; 
+  background-color: green;
+}
+
+
 /* This is the end of the navigation area formating */
 
 
@@ -68,10 +90,12 @@ body {
 /* this div is the first section of each web page */
 #div1 
 {
+  margin: 20px;
   padding:5px;
-  margin-top:0px;
-  background-color:pink;
-  color: green;
+  margin-top:20px;
+  background-color:white;
+  color: black;
+  width: 375px;
 }
 /* end of first section formatting div1 */    
 
@@ -79,10 +103,12 @@ body {
 /* this div is the formatting for the second section of each web page */
 #div2 
 {
+  margin: 20px;
   padding:5px;
-  margin-top:0px;
+  margin-top:20px;
   background-color:firebrick;  
   color:white;
+  width: 375px;
 }
 /* end of second section formatting div2*/    
 
