@@ -59,8 +59,12 @@ body {
   .active
   {
     background-color: red;
+    color: white;  
   }
-
+  
+  a {
+    text-decoration: none;
+  }
 
 .flex-container-nav {
   display: flex;
