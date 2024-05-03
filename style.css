@@ -136,4 +136,26 @@ body {
           }
         
 
-      
+/* moved from hamburger.html */
+
+.topnav {
+  background-color: grey;
+  width: 600px;
+  }
+
+.topnav a {
+  color: blue;
+  padding: 10px 16px;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a:hover {
+  background-color: black;
+  color: grey;
+}
