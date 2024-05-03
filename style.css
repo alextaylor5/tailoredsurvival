@@ -140,7 +140,7 @@ body {
 
 .topnav {
   background-color: grey;
-  width: 600px;
+  max-width: 600px;
   }
 
 .topnav a {
