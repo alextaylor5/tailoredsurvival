@@ -74,15 +74,17 @@ body {
 
 .flex-container-nav > div {
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px; 
+  /* width: 100px; */
+  margin: 0.5%; 
+  padding: 1%;
   text-align: center;
   line-height: 20px;
-  /* font-size: 30px; */ 
+  font-size: 1em; 
 }
 .flex-container-green {
   display: flex;
   flex-wrap:wrap; 
+  justify-content: center;
   background-color: green;
 }
 
@@ -99,7 +101,8 @@ body {
   margin-top:20px;
   background-color:white;
   color: black;
-  width: 375px;
+  font-size: 1em;
+  max-width: 500px;
 }
 /* end of first section formatting div1 */    
 
@@ -112,7 +115,8 @@ body {
   margin-top:20px;
   background-color:firebrick;  
   color:white;
-  width: 375px;
+  font-size: 1em;
+  width: 500px;
 }
 /* end of second section formatting div2*/    
 
