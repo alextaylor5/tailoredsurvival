@@ -74,11 +74,12 @@ body {
 
 .flex-container-nav > div {
   background-color: #f1f1f1;
-  width: 100px;
+  /* width: 100px; */
   margin: 10px; 
+  padding: 1%;
   text-align: center;
   line-height: 20px;
-  /* font-size: 30px; */ 
+  font-size: 2em; 
 }
 .flex-container-green {
   display: flex;
@@ -99,7 +100,8 @@ body {
   margin-top:20px;
   background-color:white;
   color: black;
-  width: 375px;
+  font-size: 2em;
+  max-width: 1000px;
 }
 /* end of first section formatting div1 */    
 
