@@ -11,3 +11,4 @@ yes starting with statistics is good research but people need a real story to go
 
 make a list of every personal story you have heard on a single page of the site. then figure out where those stories belong and expand on them. this includes stories you know from the news
 
+move hamburger java script to script.js
