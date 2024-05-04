@@ -19,7 +19,14 @@
     <div><a href="surviving programing.html">surviving programing</a></div>
     <div><a href="stuff to survive.html">Stuff to survive</a></div>
     <div><a href="Daily_survival.html">Daily survival</a></div>
-    <div><a href="ready for extreme weather.html">extreme weather</a></div>
+    <div onclick="clickFunction()">extreme weather</div>
+
+    <div style="background-color:  lightgray;" id="myLinks" ><a href="Power_outage_survival.html">Power Outage</a></div>
+    <div style="background-color:  lightgray;" id="myLinks1" ><a href="Hurricane_survival.html">Hurricane Survival</a></div>
+    <div style="background-color:  lightgray;" id="myLinks2" ><a href="Snow_storm_survival.html">Snow</a></div>
+    <div style="background-color:  lightgray;" id="myLinks3" ><a href="Flood_survival.html">Flood</a></div>
+    <div style="background-color:  lightgray;" id="myLinks4" ><a href="Heat_wave_survival.html">Heat Wave</a></div>
+
     <div><a href="injury.html">Injury</a></div>
     <div><a href="Broken_vehicle_survival.html">Broken vehicle survival</a></div>
     <div><a href="Disaster_survival.html">Disaster survival</a></div>
@@ -29,7 +36,9 @@
     <div><a href="stuck.html">Stuck away from home</a></div>
     <div><a href="stories.html">list of stories</a></div>
     <div><a href="iphone.html">Suriving IOS</a></div>
-    <div><a href="Hamberger.html">Hamberger</a></div>
+    <div onclick="clickFunction()">Hamberger </div>        
+  </div>
+  
             
 </div>
 <div class="flex-container-green">
@@ -130,6 +139,34 @@
 <script>
     function clickFunction() {
       var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    
+      var x = document.getElementById("myLinks1");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+      
+      var x = document.getElementById("myLinks2");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+      
+      var x = document.getElementById("myLinks3");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+      
+      var x = document.getElementById("myLinks4");
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
