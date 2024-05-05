@@ -14,6 +14,7 @@
 div.position {
   position: absolute;
   border: 3px solid #73AD21;
+  background-color: lightgreen;
 }    
 /* the body is the default formatting for the page if formating is not set anywhere else */
 body {
