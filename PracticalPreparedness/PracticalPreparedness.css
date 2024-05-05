@@ -97,7 +97,8 @@ body {
   margin-top:20px;
   background-color:white;
   color: black;
-  width: 375px;
+  width: 500px;
+  margin-bottom:20px;
 }
 /* end of first section formatting div1 */    
 
@@ -110,7 +111,8 @@ body {
   margin-top:20px;
   background-color:firebrick;  
   color:white;
-  width: 375px;    
+  width: 500px;    
+  margin-bottom:20px;
 }
 
 /* end of second section formatting div2*/  
