@@ -5,6 +5,36 @@
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
         <style>
+
+div.jessica {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+}
+
+@media screen and (orientation : portrait) {
+  div.jessica {
+    display: none;
+  }
+}
+  @media screen and (min-height: 300px) {
+  div.jessica {
+    display: none;
+  }
+}
+
+div.landscapenone {
+  background-color: white;
+  
+}
+
+@media screen and (orientation : landscape) and (max-height: 300px) {
+  div.landscapenone {
+    display: none;
+  }
+}
+
+
             </style>
     <title>Tailored Survival</title>        
     </head>
@@ -15,10 +45,10 @@
   <div><a class="active" href="index.html">Tailored Survival</a></div>
   <div><a href="PracticalPreparedness/index.html">Practial Preparedness</a></div>
   <div><a href="High Tea.html">Surviving a High Tea </a></div>
-  <div><a href="surviving programing.html">surviving programing</a></div>
-  <div><a href="stuff to survive.html">Stuff to survive</a></div>
-  <div><a href="Daily_survival.html">Daily survival</a></div>
-  <div onclick="clickFunction()">extreme weather
+  <div class="landscapenone"><a href="surviving programing.html">surviving programing</a></div>
+  <div class="landscapenone"><a href="stuff to survive.html">Stuff to survive</a></div>
+  <div class="landscapenone"><a href="Daily_survival.html">Daily survival</a></div>
+  <div class="landscapenone" onclick="clickFunction()">extreme weather
     <div class="position" id="myLinks">
         <div   ><a href="Power_outage_survival.html">Power Outage</a></div>
         <div ><a href="Hurricane_survival.html">Hurricane Survival</a></div>
@@ -27,16 +57,19 @@
         <div ><a href="Heat_wave_survival.html">Heat Wave</a></div>
 </div></div>
 
-  <div><a href="injury.html">Injury</a></div>
-  <div><a href="Broken_vehicle_survival.html">Broken vehicle survival</a></div>
-  <div><a href="Disaster_survival.html">Disaster survival</a></div>
-  <div><a href="Building_a_kit.html">Building a kit</a></div>
-  <div><a href="clock.html">clock </a></div>
-  <div><a href="House_fire.html">House fire </a></div>
-  <div><a href="stuck.html">Stuck away from home</a></div>
-  <div><a href="stories.html">list of stories</a></div>
-  <div><a href="iphone.html">Suriving IOS</a></div>
+  <div class="landscapenone"><a href="injury.html">Injury</a></div>
+  <div class="landscapenone"><a href="Broken_vehicle_survival.html">Broken vehicle survival</a></div>
+  <div class="landscapenone"><a href="Disaster_survival.html">Disaster survival</a></div>
+  <div class="landscapenone"><a href="Building_a_kit.html">Building a kit</a></div>
+  <div class="landscapenone"><a href="clock.html">clock </a></div>
+  <div class="landscapenone"><a href="House_fire.html">House fire </a></div>
+  <div class="landscapenone"><a href="stuck.html">Stuck away from home</a></div>
+  <div class="landscapenone"><a href="stories.html">list of stories</a></div>
+  <div class="landscapenone" ><a href="iphone.html">Suriving IOS</a></div>
 </div>
+
+<div class="jessica"> <h1> I love Jessica Taylor <br> Tons and Tons </h1></div>
+
 <div class="flex-container-green">
     
 <div ID="div1"><h1> Taylors High Tea Menu</h1>
