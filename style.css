@@ -140,12 +140,22 @@ body {
   margin: 20px;
   padding:5px;
   margin-top:20px;
-  background-color:firebrick;  
-  color:white;
+  background-color:lightgreen;  
+  color:black;
   font-size: 1em;
   width: 500px;
 }
 /* end of second section formatting div2*/    
+#div3 
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightblue;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
 
 
 /* formatting for other random things */
