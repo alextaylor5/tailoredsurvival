@@ -25,31 +25,6 @@ body {
     
  /* this section sets what the navigation area looks like */       
 
-  /* this is the navigation area background where there are no tabs */         
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: deepskyblue;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  /* This is the formating of the navigation tabs */
-  li a {
-    display: block;
-    color: white;
-    background-color: blueviolet;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   /* this is the formating for the navagation tab the mouse is currently hovering over */
   li a:hover:not(.active)
   {
@@ -88,7 +63,20 @@ body {
   flex-wrap:wrap; 
   background-color: green;
 }
+.gridkit {
+  display: grid;
+  grid-template-columns: auto 35%;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 1%;
+}
 
+.gridkit> div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1%;
+  font-size: 1em;
+}
 /* this div is the first section of each web page */    
 #div1 
 {
@@ -109,10 +97,21 @@ body {
   margin: 20px;
   padding:2%;
   margin-top:20px;
-  background-color:firebrick;  
-  color:white;
+  background-color:lightgreen;  
+  color:black;
   width: 500px;    
   margin-bottom:20px;
+}
+
+#div3 
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightblue;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
 }
 
 /* end of second section formatting div2*/  
@@ -132,10 +131,5 @@ p
   font-size: 20px;
 }
 
-#para1
- {
-  text-align: center;
-  color: black;
-  }
 
       
