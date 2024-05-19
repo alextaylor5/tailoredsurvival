@@ -157,6 +157,21 @@ body {
   max-width: 500px;
 }
 
+.flex-container-blue {
+  display: flex;
+  flex-wrap:wrap; 
+  /*justify-content: center;*/
+  background-color: blue;
+}
+
+
+.gridkit {
+  display: grid;
+  grid-template-columns: auto 35%;
+  gap: 10px;
+  background-color: pink;
+  padding: 1%;
+}
 
 /* formatting for other random things */
         h1 {
