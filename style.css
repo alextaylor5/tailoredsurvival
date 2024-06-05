@@ -160,7 +160,7 @@ body {
 .flex-container-blue {
   display: flex;
   flex-wrap:wrap; 
-  /*justify-content: center;*/
+  justify-content: center;
   background-color: blue;
 }
 
