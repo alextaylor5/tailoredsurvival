@@ -10,14 +10,17 @@
     </head>
 <Body>
 
-
+  <div class="flex-container-navtop" >
+    <div ><a href="./TitlePage/Index.html"  >Title page</a></div>
+    <div id="divactive"><a href="index.html" class="active">Tailored Survival</a></div>
+    <div ><a href="./PracticalPreparedness/index.html">Practial Preparedness</a></div>
+    <div ><a href="./AskaTaylor/index.html" >Ask a Taylor</a></div> 
+  </div>
+  
   <div class="flex-container-nav">
 
-    
-  <div style="background-color: blue;"><a href="index.html" style="color: white;">Tailored Survival</a></div>
-  <div style="background-color: lightpink;"><a href="PracticalPreparedness/index.html">Practial Preparedness</a></div>
-<div><a href="High Tea.html">Surviving a High Tea </a></div>
-    <div><a class="active" href="surviving programing.html">surviving programing</a></div>
+    <div><a href="High Tea.html">Surviving a High Tea </a></div>
+    <div  id="divactive"><a class="active" href="surviving programing.html">surviving programing</a></div>
     <div><a href="stuff to survive.html">Stuff to survive</a></div>
     <div><a href="Daily_survival.html">Daily survival</a></div>
     <div onclick="clickFunction()">extreme weather
@@ -36,7 +39,6 @@
     <div><a href="House_fire.html">House fire </a></div>
     <div><a href="stuck.html">Stuck away from home</a></div>
     <div><a href="stories.html">list of stories</a></div>
-    <div><a href="my other thoughts.html">other</a></div>
     <div onclick="clickFunction()">Hamberger </div>        
   </div>
   
@@ -102,7 +104,18 @@
   <div id="div3">
   show every step you took to make your website but start with a 4 line html document made with note pad. then show a hyperlink and explaine documents no longer need to be linier. then talk about editors. indenting multiple lines color coding script autocompleation ect. then go through how you built your site one page and one command at a time. If you make a video inclued new tags in the description.
   
-  
+  nesting in css 
+  .flex-container-navtop > div {
+    background-color: blue;
+    margin: 0.5%; 
+    padding: 1%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;
+    a {color: white;}
+    .active    { color: blue;    background-color: pink;  }
+  }
+
   </div>
     
   </div> 

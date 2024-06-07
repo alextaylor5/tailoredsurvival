@@ -63,30 +63,44 @@ body {
 /* this is the formating for the navagation tab that you have selected */  
   .active
   {
-    background-color: red;
-    color: white;  
+    color: blue;
+    background-color: pink;  
   }
-  
   a {
     text-decoration: none;
   }
-
-.flex-container-nav {
-  display: flex;
-  flex-wrap:wrap; 
-  background-color: DodgerBlue;
-}
-
-.flex-container-nav > div {
-  background-color: #f1f1f1;
-  /* width: 100px; */
-  margin: 0.5%; 
-  padding: 1%;
-  text-align: center;
-  line-height: 20px;
-  font-size: 1em;
-}
-
+  .flex-container-navtop {
+    display: flex;
+    flex-wrap:wrap; 
+    background-color: DodgerBlue;
+    justify-content: center;
+    color: white;
+  }
+  .flex-container-navtop > div {
+    background-color: blue;
+    margin: 0.5%; 
+    padding: 1%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;
+    a {color: white;}
+    .active    { color: blue;    background-color: pink;  }
+  }
+  .flex-container-nav {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  .flex-container-nav > div {
+    background-color: #f1f1f1;
+    margin: 0.5%; 
+    padding: 1%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;
+  }
+    
 
 .flex-container-nav #myLinks {
   display: none;
@@ -115,12 +129,33 @@ body {
   background-color: green;
 }
 
+/*div options*/
+#divactive {
+  background-color:pink;
+  /*height:300px;
+  width:500px;*/
+}
+#divactive:hover {
+  background-color:Green;
+}
 
-/* This is the end of the navigation area formating */
+/*#divactive:active {
+  background-color:Green;
+}*/
+.gridkit {
+  display: grid;
+  grid-template-columns: auto 35%;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 1%;
+}
 
-
-
-/* this div is the first section of each web page */
+.gridkit> div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1%;
+  font-size: 1em;
+}
 #div1 
 {
   margin: 20px;
@@ -131,10 +166,7 @@ body {
   font-size: 1em;
   max-width: 500px;
 }
-/* end of first section formatting div1 */    
 
-
-/* this div is the formatting for the second section of each web page */
 #div2 
 {
   margin: 20px;
@@ -164,14 +196,6 @@ body {
   background-color: blue;
 }
 
-
-.gridkit {
-  display: grid;
-  grid-template-columns: auto 35%;
-  gap: 10px;
-  background-color: pink;
-  padding: 1%;
-}
 
 /* formatting for other random things */
         h1 {
