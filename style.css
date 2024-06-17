@@ -221,6 +221,56 @@ body {
   font-size: 1em;
   max-width: 500px;
 }
+#divlgrey
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightgray;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlpink
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightpink;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlyellow
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightyellow;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divcyan
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:cyan;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlcyan
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightcyan;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
 
 .flex-container-blue {
   display: flex;
