@@ -189,6 +189,88 @@ body {
   font-size: 1em;
   max-width: 500px;
 }
+#divwhite
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:white;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+
+#divlgreen
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightgreen;  
+  color:black;
+  font-size: 1em;
+  width: 500px;
+}
+/* end of second section formatting div2*/    
+#divlblue 
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightblue;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlgrey
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightgray;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlpink
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightpink;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlyellow
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightyellow;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divcyan
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:cyan;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
+#divlcyan
+{
+  margin: 20px;
+  padding:5px;
+  margin-top:20px;
+  background-color:lightcyan;
+  color: black;
+  font-size: 1em;
+  max-width: 500px;
+}
 
 .flex-container-blue {
   display: flex;
