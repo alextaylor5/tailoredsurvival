@@ -77,16 +77,27 @@ body {
     justify-content: center;
     color: white;
   }
-  .flex-container-navtop > div {
-    background-color: blue;
-    margin: 0.5%; 
-    padding: 1%;
-    text-align: center;
-    line-height: 20px;
-    font-size: 1em;
-    a {color: white;}
-    .active    { color: blue;    background-color: pink;  }
-  }
+  .flex-container-navtop >
+        a {
+          background-color: blue;
+          margin: 0.5%; 
+          padding: 1%;
+          text-align: center;
+          line-height: 20px;
+          font-size: 1em;
+          div {color: white;}
+          .active    { color: blue;    background-color: pink;  }
+        }
+        /*a {
+          background-color: blue;
+          margin: 0.5%; 
+          padding: 1%;
+          text-align: center;
+          line-height: 20px;
+          font-size: 1em;
+          a {color: white;}
+          .active    { color: blue;    background-color: pink;  }
+        }*/
   .flex-container-nav {
     display: flex;
     flex-wrap:wrap; 
@@ -209,6 +220,14 @@ body {
   color:black;
   font-size: 1em;
   width: 500px;
+}
+
+#divlgreennav
+{
+
+  background-color:lightgreen;  
+  color:black;
+  font-size: 1em;
 }
 /* end of second section formatting div2*/    
 #divlblue 
