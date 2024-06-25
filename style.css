@@ -62,14 +62,12 @@ body {
   }
 
 /* this is the formating for the navagation tab that you have selected */  
-  .active
-  {
-    color: blue;
-    background-color: pink;  
-  }
+  
   a {
     text-decoration: none;
   }
+
+
   .flex-container-navtop {
     display: flex;
     flex-wrap:wrap; 
@@ -85,26 +83,30 @@ body {
           text-align: center;
           line-height: 20px;
           font-size: 1em; }
-        div {color: white;}
-        .active    { color: blue;    background-color: pink;  }
-        
+
+
+
+     
+
 
   .flex-container-nav {
     display: flex;
     flex-wrap:wrap; 
-    background-color: DodgerBlue;
+    background-color: purple;
     justify-content: center;
   }
   .flex-container-nav > 
-    div {
-    background-color: #f1f1f1;
+      
+  /*div {
+    background-color:white;
     color: black;
     margin: 0.5%; 
     padding: 1%;
     text-align: center;
     line-height: 20px;
     font-size: 1em;
-  }
+  }*/
+    
   a {
     background-color: #f1f1f1;
     color: black;
@@ -115,6 +117,14 @@ body {
     font-size: 1em;
   }
 
+  
+  .active
+  {
+    color: red;
+    background-color: greenyellow;  
+  }
+
+  
 .flex-container-nav #myLinks {
   display: none;
 } 
@@ -150,21 +160,35 @@ body {
 #divactive:hover {
   background-color:Green;
 }
-#topnav {background-color: blue;}
+#topnav {background-color: blue;
+color: white;
+}
 #topnav:hover {
   background-color:Green;
 }
 #nav {
-    background-color: white;
-    color: black;
-    margin: 0.5%; 
-    padding: 1%;
-    text-align: center;
-    line-height: 20px;
-    font-size: 1em;
+  background-color: white;
+  color: black;
+  margin: 0.5%; 
+  padding: 1%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 1em;
 }
 #nav:hover {
-  background-color:Green;
+background-color:Green;
+}
+#navactive {
+  background-color: orange;
+  color: black;
+  margin: 0.5%; 
+  padding: 1%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 1em;
+}
+#navactive:hover {
+background-color:Green;
 }
 
 #textblack { color: black}
