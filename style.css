@@ -79,40 +79,41 @@ body {
   }
   .flex-container-navtop >
         a {
-          background-color: blue;
+          background-color: blueviolet;
           margin: 0.5%; 
           padding: 1%;
           text-align: center;
           line-height: 20px;
-          font-size: 1em;
-          div {color: white;}
-          .active    { color: blue;    background-color: pink;  }
-        }
-        /*a {
-          background-color: blue;
-          margin: 0.5%; 
-          padding: 1%;
-          text-align: center;
-          line-height: 20px;
-          font-size: 1em;
-          a {color: white;}
-          .active    { color: blue;    background-color: pink;  }
-        }*/
+          font-size: 1em; }
+        div {color: white;}
+        .active    { color: blue;    background-color: pink;  }
+        
+
   .flex-container-nav {
     display: flex;
     flex-wrap:wrap; 
-    justify-content: center;
     background-color: DodgerBlue;
+    justify-content: center;
   }
-  .flex-container-nav > div {
+  .flex-container-nav > 
+    div {
     background-color: #f1f1f1;
+    color: black;
     margin: 0.5%; 
     padding: 1%;
     text-align: center;
     line-height: 20px;
     font-size: 1em;
   }
-    
+  a {
+    background-color: #f1f1f1;
+    color: black;
+    margin: 0.5%; 
+    padding: 1%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;
+  }
 
 .flex-container-nav #myLinks {
   display: none;
@@ -149,11 +150,25 @@ body {
 #divactive:hover {
   background-color:Green;
 }
+#topnav {background-color: blue;}
+#topnav:hover {
+  background-color:Green;
+}
+#nav {
+    background-color: white;
+    color: black;
+    margin: 0.5%; 
+    padding: 1%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;
+}
+#nav:hover {
+  background-color:Green;
+}
+
 #textblack { color: black}
 
-/*#divactive:active {
-  background-color:Green;
-}*/
 .gridkit {
   display: grid;
   grid-template-columns: auto 35%;
