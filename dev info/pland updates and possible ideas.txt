@@ -1,7 +1,6 @@
 
 
 video making a fire after 15 years. 
-x remove inline styling and create element ID instead
 
 images on both sides of the page that relate to the lists and content in the article
 
@@ -12,3 +11,8 @@ yes starting with statistics is good research but people need a real story to go
 make a list of every personal story you have heard on a single page of the site. then figure out where those stories belong and expand on them. this includes stories you know from the news
 
 move hamburger java script to script.js
+
+switch div and <a href> on all navigation buttons
+
+add building a kit under Practical Preparedness
+
