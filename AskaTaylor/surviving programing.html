@@ -9,25 +9,26 @@
     <title>Tailored Survival</title>        
     </head>
 <Body>
+
   <div class="flex-container-navtop" >
-    <a href="../RecentUpdates/Index.html"  ><div>Recent Updates</div> </a>
-     <a href="../index.html"><div>Tailored Survival</div></a>
-     <a href="../PracticalPreparedness/index.html"><div>Practial Preparedness</div></a>
-     <a id="divactive" href="index.html" class="active"><div>Ask a Taylor</div></a> 
+    <a id="topnav" href="../RecentUpdates/Index.html"  ><div>Recent Updates</div> </a>
+    <a id="topnav" href="../index.html"><div>Tailored Survival <br> <p style="font-size: small; margin: 0;">Stories good and Bad</p> </div></a>
+    <a id="topnav"  href="../PracticalPreparedness/index.html"><div>Practial Preparedness <br> <p style="font-size: small; margin: 0;">Building your Kit</p> </div></a>
+    <a id="divactive" href="index.html" class="active"><div>Ask a Taylor</div></a> 
    </div>
-  <div class="flex-container-nav">
-    <div><a href="index.html">What's Intresting</a></div>
-    <div><a href="finance.html">Finance</a></div>
-    <div><a href="High Tea.html">Surviving a High Tea </a></div>
-    <div id="divactive"><a class="active" href="surviving programing.html">surviving programing</a></div>
-    <div><a href="clock.html">clock </a></div>
-    <div><a href="Hamberger.html">Hamberger</a></div>
+   <div class="flex-container-nav">
+    <a id="nav" href="index.html"><div>What's Intresting</div></a>
+    <a id="nav" href="finance.html"><div>Finance</div></a>
+    <a id="nav" href="High Tea.html" ><div >Surviving a High Tea </div></a>
+    <a id="navactive" href="surviving programing.html"><div  >surviving programing</div></a>
+    <a id="nav" href="clock.html"><div>clock </div> </a>
+    <a id="nav" href="Hamberger.html"><div>Hamberger</div></a>
   
 </div>
 
 <div class="flex-container-green">
 <div id="divlcyan">
-  <h1>My voyage of learning to program</h1>
+  <div href="../PracticalPreparedness/index.html"><h1>My voyage of learning to program</h1></div>
   <p>
     In 1986 I learnd Basic programing language on an AppleII but did not continue that education beyond that.  In 2003 I wrote a very simple website using simple html with notepad as my editor. So when I decided to try programing in 2021 I was wondering where I should start.  I decided to write a single small html page using notepad then focuse on what tools I should use to edit and post that to the web.  I did not want to use a website creator, I had done that in 2010 and now the site is not editable unless I want to learn their tool again since they change it every coulple years.  I did not want to use a technology that would change constantly.  I talked to my brother and he gave me this list of tools to learn. <br>
     VScode for file creation and editing <br>
@@ -57,7 +58,7 @@ this is how you write code snipets <br>
 The tried and true method for HTML:
 
 Replace the & character with &amp; <br>
-Replace the &lt character with &lt; <br>
+Replace the gitcharacter with &lt; <br>
 Replace the &gt character with &gt; <br>
 Optionally surround your HTML sample with &ltpre> and/or &ltcode> tags. But I dont like doing this because auto formating gets screwedup. 6/21/2024 <br>
 <br>
@@ -127,9 +128,51 @@ I decided to name my divs with the color they are in css so divlgreen, divlblue 
   }
 </pre>
   </div>
-    
-  </div> 
+  <div id="divcyan">
+  6/22/2024 when you open VS code and do a git pull request you need to make sure there are no files open in the editor. what is open and in the editor will be what was old not what was retrieved with the pull request. <br>
+  When you do a Sync Changes in VS Code it also does a git pull and pulls down any changes from github.
+  <br>
+  6/26/2024 I thought I understood how my navigation buttons got their properties but then when I went to change their size an color nothing changed.  First I learned what order things took priority in the style.css page, then I learned what sub things you could do like #nav:hover and .divactive> div{color: white} 
+
+  the problem was I didn't know the full syntax and thought This
+  .nav > div {
+    background-color: blue;
+    margin: 0.5%; 
+    padding: 1%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;}
+    a {color: white;}
+ 
+    was setting div inside class nav and anchor inside class nav but it only sets div and the a was setting anchor for all anchors. but I was still wrong this did set both, now I am confused.
+
+    I just learned another thing
+    p.nav {color: blue} only sets the color blue for paragraphs with class nav
+    and you can have 2 clsses on an element class= "nav fontblack"
+
+    <!--<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {  text-align: center; color: red;}
+p.large {  font-size: 300%;}
+.large  {  font-size: 500%;}
+.blue {color: blue}
+.blue > a {color:green;} 
+div {  font-size: 50%;}
+</style>
+</head>
+<body>
+<h1 class="blue large ">Demo of the .class selector <div>blue</div> </h1>
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+</body>
+</html>-->
+I have learned that getting the navigation right is a lot of cutting and pasting.  You figure out one thing you like then cut and paste that into 30 documents. Then you figure out another thing you like, cut and paste that into 30 documents. Repeate that 40 times and you will be getting close on your navigation :)
 </div>
+</div> 
+
 
 <script>
 </script>

@@ -1,7 +1,8 @@
+
 .container{
   /*this container is for the clock*/
     font-family: "Arial", Helvetica, sans-serif;
-    padding: 30px;
+  
     color: #fff;
     font-weight: bold;
     position: absolute;
@@ -20,7 +21,7 @@ div.position {
 /* the body is the default formatting for the page if formating is not set anywhere else */
 body {
   margin: 0;
-  padding: 0;
+
   background-color: chocolate;
   color: black;
 }
@@ -32,7 +33,7 @@ body {
   {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+
     overflow: hidden;
     background-color: green;
     top: 0;
@@ -51,7 +52,7 @@ body {
     color: white;
     background-color: blueviolet;
     text-align: center;
-    padding: 14px 16px;
+   
     text-decoration: none;
   }
 
@@ -62,14 +63,12 @@ body {
   }
 
 /* this is the formating for the navagation tab that you have selected */  
-  .active
-  {
-    color: blue;
-    background-color: pink;  
-  }
+  
   a {
     text-decoration: none;
   }
+
+
   .flex-container-navtop {
     display: flex;
     flex-wrap:wrap; 
@@ -79,41 +78,36 @@ body {
   }
   .flex-container-navtop >
         a {
-          background-color: blue;
-          margin: 0.5%; 
-          padding: 1%;
+          background-color: blueviolet;
+          margin: 0.5%;      
           text-align: center;
           line-height: 20px;
-          font-size: 1em;
-          div {color: white;}
-          .active    { color: blue;    background-color: pink;  }
-        }
-        /*a {
-          background-color: blue;
-          margin: 0.5%; 
-          padding: 1%;
-          text-align: center;
-          line-height: 20px;
-          font-size: 1em;
-          a {color: white;}
-          .active    { color: blue;    background-color: pink;  }
-        }*/
+          font-size: 1em; }
+
   .flex-container-nav {
     display: flex;
     flex-wrap:wrap; 
+    background-color: purple;
     justify-content: center;
-    background-color: DodgerBlue;
   }
-  .flex-container-nav > div {
+  .flex-container-nav > 
+     a {
     background-color: #f1f1f1;
+    color: black;
     margin: 0.5%; 
-    padding: 1%;
     text-align: center;
     line-height: 20px;
     font-size: 1em;
   }
-    
 
+  
+  .active
+  {
+    color: red;
+    background-color: greenyellow;  
+  }
+
+  
 .flex-container-nav #myLinks {
   display: none;
 } 
@@ -145,21 +139,44 @@ body {
 #divactive {
   background-color:pink;
   color: black;
+  padding: 0.3%;
 }
 #divactive:hover {
   background-color:Green;
 }
+#topnav {background-color: blue;
+color: white;
+padding: 0.3%;
+}
+#topnav:hover {
+  background-color:Green;
+}
+#nav {
+  background-color: white;
+  color: black;
+  padding: 0.3%;
+ 
+}
+#nav:hover {
+background-color:Green;
+}
+#navactive {
+  background-color: orange;
+  color: black;
+  padding: 0.3%;
+}
+#navactive:hover {
+background-color:Green;
+}
+
 #textblack { color: black}
 
-/*#divactive:active {
-  background-color:Green;
-}*/
 .gridkit {
   display: grid;
   grid-template-columns: auto 35%;
   gap: 10px;
   background-color: #2196F3;
-  padding: 1%;
+  margin: 1%;
 }
 
 .gridkit> div {
@@ -171,7 +188,7 @@ body {
 #div1 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:white;
   color: black;
@@ -182,7 +199,7 @@ body {
 #div2 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightgreen;  
   color:black;
@@ -193,7 +210,7 @@ body {
 #div3 
 {
   margin: 20px;
-  padding:5px;
+
   margin-top:20px;
   background-color:lightblue;
   color: black;
@@ -203,7 +220,7 @@ body {
 #divwhite
 {
   margin: 20px;
-  padding:5px;
+
   margin-top:20px;
   background-color:white;
   color: black;
@@ -215,7 +232,7 @@ body {
 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightgreen;
   color:black;
@@ -234,7 +251,7 @@ body {
 #divlblue 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightblue;
   color: black;
@@ -244,7 +261,7 @@ body {
 #divblue 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:blue;
   color: white;
@@ -254,7 +271,7 @@ body {
 #divlgrey
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightgray;
   color: black;
@@ -264,7 +281,7 @@ body {
 #divlpink
 {
   margin: 20px;
-  padding:5px;
+ 
   margin-top:20px;
   background-color:lightpink;
   color: black;
@@ -274,7 +291,7 @@ body {
 #divlyellow
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightyellow;
   color: black;
@@ -284,7 +301,7 @@ body {
 #divcyan
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:cyan;
   color: black;
@@ -294,7 +311,7 @@ body {
 #divlcyan
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightcyan;
   color: black;
@@ -334,7 +351,7 @@ body {
 
 .topnav a {
   color: blue;
-  padding: 10px 16px;
+  
   font-size: 17px;
   display: block;
 }
