@@ -79,16 +79,10 @@ body {
   .flex-container-navtop >
         a {
           background-color: blueviolet;
-          margin: 0.5%; 
-     
+          margin: 0.5%;      
           text-align: center;
           line-height: 20px;
           font-size: 1em; }
-
-
-
-     
-
 
   .flex-container-nav {
     display: flex;
@@ -97,22 +91,10 @@ body {
     justify-content: center;
   }
   .flex-container-nav > 
-      
-  /*div {
-    background-color:white;
-    color: black;
-    margin: 0.5%; 
-    
-    text-align: center;
-    line-height: 20px;
-    font-size: 1em;
-  }*/
-    
-  a {
+     a {
     background-color: #f1f1f1;
     color: black;
     margin: 0.5%; 
-    
     text-align: center;
     line-height: 20px;
     font-size: 1em;
@@ -157,12 +139,14 @@ body {
 #divactive {
   background-color:pink;
   color: black;
+  padding: 0.3%;
 }
 #divactive:hover {
   background-color:Green;
 }
 #topnav {background-color: blue;
 color: white;
+padding: 0.3%;
 }
 #topnav:hover {
   background-color:Green;
@@ -170,6 +154,7 @@ color: white;
 #nav {
   background-color: white;
   color: black;
+  padding: 0.3%;
  
 }
 #nav:hover {
@@ -178,11 +163,7 @@ background-color:Green;
 #navactive {
   background-color: orange;
   color: black;
-  margin: 0.5%; 
-  
-  text-align: center;
-  line-height: 20px;
-  font-size: 1em;
+  padding: 0.3%;
 }
 #navactive:hover {
 background-color:Green;
@@ -195,13 +176,13 @@ background-color:Green;
   grid-template-columns: auto 35%;
   gap: 10px;
   background-color: #2196F3;
-  
+  margin: 1%;
 }
 
 .gridkit> div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  
+  padding: 1%;
   font-size: 1em;
 }
 #div1 
