@@ -1,7 +1,8 @@
+
 .container{
   /*this container is for the clock*/
     font-family: "Arial", Helvetica, sans-serif;
-    padding: 30px;
+  
     color: #fff;
     font-weight: bold;
     position: absolute;
@@ -20,7 +21,7 @@ div.position {
 /* the body is the default formatting for the page if formating is not set anywhere else */
 body {
   margin: 0;
-  padding: 0;
+
   background-color: chocolate;
   color: black;
 }
@@ -32,7 +33,7 @@ body {
   {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+
     overflow: hidden;
     background-color: green;
     top: 0;
@@ -51,7 +52,7 @@ body {
     color: white;
     background-color: blueviolet;
     text-align: center;
-    padding: 14px 16px;
+   
     text-decoration: none;
   }
 
@@ -79,7 +80,7 @@ body {
         a {
           background-color: blueviolet;
           margin: 0.5%; 
-          padding: 1%;
+     
           text-align: center;
           line-height: 20px;
           font-size: 1em; }
@@ -101,7 +102,7 @@ body {
     background-color:white;
     color: black;
     margin: 0.5%; 
-    padding: 1%;
+    
     text-align: center;
     line-height: 20px;
     font-size: 1em;
@@ -111,7 +112,7 @@ body {
     background-color: #f1f1f1;
     color: black;
     margin: 0.5%; 
-    padding: 1%;
+    
     text-align: center;
     line-height: 20px;
     font-size: 1em;
@@ -169,11 +170,7 @@ color: white;
 #nav {
   background-color: white;
   color: black;
-  margin: 0.5%; 
-  padding: 1%;
-  text-align: center;
-  line-height: 20px;
-  font-size: 1em;
+ 
 }
 #nav:hover {
 background-color:Green;
@@ -182,7 +179,7 @@ background-color:Green;
   background-color: orange;
   color: black;
   margin: 0.5%; 
-  padding: 1%;
+  
   text-align: center;
   line-height: 20px;
   font-size: 1em;
@@ -198,19 +195,19 @@ background-color:Green;
   grid-template-columns: auto 35%;
   gap: 10px;
   background-color: #2196F3;
-  padding: 1%;
+  
 }
 
 .gridkit> div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 1%;
+  
   font-size: 1em;
 }
 #div1 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:white;
   color: black;
@@ -221,7 +218,7 @@ background-color:Green;
 #div2 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightgreen;  
   color:black;
@@ -232,7 +229,7 @@ background-color:Green;
 #div3 
 {
   margin: 20px;
-  padding:5px;
+
   margin-top:20px;
   background-color:lightblue;
   color: black;
@@ -242,7 +239,7 @@ background-color:Green;
 #divwhite
 {
   margin: 20px;
-  padding:5px;
+
   margin-top:20px;
   background-color:white;
   color: black;
@@ -254,7 +251,7 @@ background-color:Green;
 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightgreen;
   color:black;
@@ -273,7 +270,7 @@ background-color:Green;
 #divlblue 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightblue;
   color: black;
@@ -283,7 +280,7 @@ background-color:Green;
 #divblue 
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:blue;
   color: white;
@@ -293,7 +290,7 @@ background-color:Green;
 #divlgrey
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightgray;
   color: black;
@@ -303,7 +300,7 @@ background-color:Green;
 #divlpink
 {
   margin: 20px;
-  padding:5px;
+ 
   margin-top:20px;
   background-color:lightpink;
   color: black;
@@ -313,7 +310,7 @@ background-color:Green;
 #divlyellow
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightyellow;
   color: black;
@@ -323,7 +320,7 @@ background-color:Green;
 #divcyan
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:cyan;
   color: black;
@@ -333,7 +330,7 @@ background-color:Green;
 #divlcyan
 {
   margin: 20px;
-  padding:5px;
+  
   margin-top:20px;
   background-color:lightcyan;
   color: black;
@@ -373,7 +370,7 @@ background-color:Green;
 
 .topnav a {
   color: blue;
-  padding: 10px 16px;
+  
   font-size: 17px;
   display: block;
 }
