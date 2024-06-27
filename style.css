@@ -35,7 +35,7 @@ body {
 
   li a:hover:not(.active) { background-color: chocolate; }
   
-  /*a { text-decoration: none;  }*/
+ /* a { text-decoration: none;  }*/
 
   h1 { text-align: center;  }
   
@@ -58,7 +58,8 @@ body {
           margin: 0.5%;      
           text-align: center;
           line-height: 20px;
-          font-size: 1em; 
+          font-size: 1em;
+          text-decoration: none; 
         }
 
 .flex-container-nav {
@@ -75,6 +76,7 @@ body {
     text-align: center;
     line-height: 20px;
     font-size: 1em;
+    text-decoration: none;
   }
 
   
