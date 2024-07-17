@@ -188,7 +188,7 @@ background-color:Green;
   background-color:lightgreen;  
   color:black;
   font-size: 1em;
-  width: 500px;
+  max-width: 500px;
 }
 /* end of second section formatting div2*/    
 #div3 
@@ -240,6 +240,13 @@ background-color:Green;
   font-size: 1em;
   max-width: 500px;
 }
+#divblue2
+{
+  margin: 0.5%;
+  background-color:blue;
+  color: white;
+}
+
 #divblue 
 {
   margin: 20px;
