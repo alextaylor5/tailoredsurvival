@@ -190,7 +190,7 @@ background-color:Green;
   font-size: 1em;
   max-width: 500px;
 }
-/* end of second section formatting div2*/    
+  
 #div3 
 {
   margin: 20px;
@@ -245,6 +245,7 @@ background-color:Green;
   margin: 0.5%;
   background-color:blue;
   color: white;
+  max-width: 500px;
 }
 
 #divblue 
