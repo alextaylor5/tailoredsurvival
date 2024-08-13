@@ -131,8 +131,10 @@ body {
 .gridkit> div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  
   padding: 1%;
   font-size: 1em;
+  margin: 2%;
   }
 
 
@@ -188,9 +190,9 @@ background-color:Green;
   background-color:lightgreen;  
   color:black;
   font-size: 1em;
-  width: 500px;
+  max-width: 500px;
 }
-/* end of second section formatting div2*/    
+  
 #div3 
 {
   margin: 20px;
@@ -240,6 +242,14 @@ background-color:Green;
   font-size: 1em;
   max-width: 500px;
 }
+#divblue2
+{
+  margin: 0.5%;
+  background-color:blue;
+  color: white;
+  max-width: 500px;
+}
+
 #divblue 
 {
   margin: 20px;
